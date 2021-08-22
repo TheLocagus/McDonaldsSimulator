@@ -1,0 +1,328 @@
+firstSide{
+    display: none;
+    /*position: relative;*/
+}
+
+.game-root{
+    background-color: rgba(80,80,80,1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+div.start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-ui{
+    display: none;
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+}
+
+.intro{
+    height: 30%;
+}
+
+.intro .in-game-order{
+    height: 30%;
+}
+
+.intro .in-game-player-choices{
+    height: 50%;
+}
+
+.in-game-panel, .in-game-panel-two{
+    height: 45%;
+    display: flex;
+    align-items: center;
+}
+.in-game-panel .p-panel, .in-game-panel-two .p-panel-two{
+    text-align: center;
+    width: 150px;
+    color: #53d053;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.in-game-panel div, .in-game-panel-two div {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    margin-right: 2px;
+}
+
+.in-game-panel div p, .in-game-panel-two div p {
+    color: #53d053;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%;
+
+}
+
+.div-panel-wrap, .div-panel-two-wrap{
+    display: flex;
+    width: calc(100% - 150px);
+}
+
+h2.h2-introduction{
+    text-align: center;
+}
+
+h3.h3-sandwich-name{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #b90808;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
+.kitchen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.first-line{
+    display: flex;
+    justify-content: center;
+}
+.second-line{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.third-line{
+    display: flex;
+    padding-top: 20px;
+}
+
+.fourth-line{
+    display: flex;
+    padding: 20px;
+}
+
+.fourth-line .rolls{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.UHT{
+    display: flex;
+    justify-content: center;
+}
+
+.UHT button{
+    position: relative;
+    width: 50px;
+    height: 100px;
+    border-width: 0px;
+    color: white;
+}
+.UHC-grill .beef-four{
+    background-color: rgb(62, 3, 3);
+}
+.UHC-grill .beef-ten{
+    background-color: rgb(120, 33, 33);
+}
+.strips{
+    background-color: #764c02;
+    font-size: 12px;
+}
+
+/*.UHT div p {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.table button{
+    display: block;
+    margin: 1px;
+    height: 40px;
+    width: 70px;
+    border-width: 0px;
+    color: white;
+    background-color: #333;
+    font-size: 10px;
+}
+
+.table .upper-part-of-table{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .bottom-part-of-table{
+    display: flex;
+    justify-content: space-between;
+}
+.table .bottom-part-of-table button {
+    flex-grow: 1;
+}
+/*.table div>p {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align: center;*/
+/*}*/
+[data-background-green]:hover{
+    background-color: rgb(10, 71, 10);
+}
+
+[data-background-red]:hover{
+    background-color: #e11c06;
+}
+[data-background-yellow]:hover{
+    background-color: #9f8808;
+}
+
+[data-background-brown]:hover{
+    background-color: #672602;
+}
+
+[data-background-orange]:hover{
+    background-color: #f36e1a;
+}
+[data-background-gray]:hover{
+    background-color: #666;
+}
+[data-background-blue]:hover{
+    background-color: #092cb6;
+}
+[data-background-black]:hover{
+    background-color: #000;
+}
+[data-background-pink]:hover{
+    background-color: #c504e0;
+}
+
+.third-line button, .rolls button{
+    display: block;
+    margin: 1px;
+    height: 30px;
+    width: 80px;
+    border-width: 0px;
+    color: white;
+    background-color: #333;
+    font-size: 10px;
+}
+
+.third-line .UHC-oil, .UHC-grill{
+    display: flex;
+    margin-right: 20px;
+}
+
+.third-line .UHC-oil-first-column, .UHC-grill-first-column {
+    display: flex;
+    flex-direction: column;
+}
+.third-line .UHC-oil-second-column, .UHC-grill-second-column {
+     display: flex;
+     flex-direction: column;
+}
+.third-line .UHC-oil-third-column, .UHC-grill-third-column {
+      display: flex;
+      flex-direction: column;
+}
+
+.sauces button{
+    display: block;
+    margin: 1px;
+    height: 30px;
+    width: 80px;
+    border-width: 0px;
+    color: white;
+    background-color: #333;
+    font-size: 10px;
+}
+
+.sauces{
+    display: flex;
+    flex-direction: column;
+}
+
+.sauces .sauces-first-column{
+    display: flex;
+}
+
+.sauces .sauces-second-column{
+    display: flex;
+}
+
+.sauces .sauces-second-column .sauces-second-column-one{
+    display: flex;
+}
+.sauces .sauces-second-column .sauces-second-column-two{
+     display: flex;
+    margin-left: 15px;
+}
+
+.buttons{
+    position: relative;
+    height: 10%;
+}
+
+#focusedBtn {
+    border: 3px dotted green;
+}
+
+button.start, .cancel, .goToTheEndgameByFirstSide, .start-game-by-first-side, .cancel-game-by-first-side{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid black;
+}
+button.start:hover, .cancel:hover, .goToTheEndgameByFirstSide:hover, .start-game-by-first-side:hover, .cancel-game-by-first-side:hover{
+    background-color: #555;
+    color: white;
+    border: 1px solid white;
+}
+
+.start-game-by-first-side, .cancel-game-by-first-side{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.goToTheEndgameByFirstSide{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+[data-category]{
+    cursor: pointer;
+}
+
+.backdrop-before-picking-roll{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: -999;
+}

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gra McDonald's</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/gameScreenStyles/firstSide.css">
+    <link rel="stylesheet" href="style/gameScreenStyles/secondSide.css">
+    <script src="https://kit.fontawesome.com/5d6499bfe0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="root">
+        <section class="welcome-screen">
+            <h1>Wybierz stronę</h1>
+            <div class="choice-side-buttons">
+                <button class="first">Pierwsza strona</button>
+                <button class="second">Druga strona</button>
+            </div>
+        </section>
+        <section class="game-screen">
+            <section class="first-side">
+                <div class="game-root">
+                    <div class="start">
+                        <button class="start">Rozpocznij</button>
+                    </div>
+                </div>
+                <div class="game-ui">
+                    <div class="intro">
+<!--                        <h1 class="title">Kanapki McDonald's</h1>-->
+                        <div class="in-game-order"></div>
+                        <div class="in-game-player-choices">
+                            <div class="in-game-panel"></div>
+                            <div class="in-game-panel-two"></div>
+                        </div>
+                    </div>
+                    <div class="kitchen">
+                        <div class="first-line">
+                            <div class="sauces">
+                                <div class="sauces-first-column">
+                                    <button disabled data-category="ingredient" data-name="Tzatziki sauce" data-background-gray>
+                                        Tzatziki
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Caramelized onion sauce" data-background-brown>
+                                        Karmelizowana cebulka
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Spicy sauce" data-background-brown>
+                                        Spicy
+                                    </button>
+                                </div>
+                                <div class="sauces-second-column">
+                                    <div class="sauces-second-column-one">
+                                        <button disabled data-category="ingredient" data-name="Red hot sauce" data-background-red>
+                                            Sos red hot
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="American mustard" data-background-yellow>
+                                            Amerykańska musztarda
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="Mustard and horseradish sauce" data-background-gray>
+                                            Musztardowo-chrzanowy
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="Honey and mustard sauce" data-background-yellow>
+                                            Miodowo-musztardowy
+                                        </button>
+                                    </div>
+                                    <div class="sauces-second-column-two">
+                                        <button disabled data-category="ingredient" data-name="Green tabasco sauce" data-background-green>
+                                            Green tabasco
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="Onion-tomato sauce" data-background-red>
+                                            Cebulowo-pomidorowy
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="Sandwich sauce" data-background-gray>
+                                            Kanapkowy
+                                        </button>
+                                        <button disabled data-category="ingredient" data-name="BigMac sauce" data-background-pink>
+                                            Sos BigMac
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-line">
+                            <div class="table">
+                                <div class="upper-part-of-table">
+                                    <button disabled data-category='ingredient' data-name='Grated cheese' data-background-orange>
+                                        Ser tarty
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Tomato x1' data-background-red>
+                                        Pomidory
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Roasted onion' data-background-brown>
+                                        Prażona cebula
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Cucumber' data-background-green>
+                                        Świeży ogórek
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Favita' data-background-gray>
+                                        Favita
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Red onion x1' data-background-red>
+                                        Czerwona cebula
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Jalapeno x1' data-background-green>
+                                        Jalapeno
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Chilli' data-background-red>
+                                        Papryczka chili
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Pepper' data-background-red>
+                                        Papryka
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Fresh onion' data-background-gray>
+                                        Świeża cebula
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Pickle x1' data-background-green>
+                                        Pikle
+                                    </button>
+
+                                </div>
+                                <div class="bottom-part-of-table">
+                                    <button disabled data-category='ingredient' data-name='Bacon x1' data-background-brown>
+                                        Bekon
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Cheese' data-background-yellow>
+                                        Ser
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Salad' data-background-green>
+                                        Sałata świeża
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Arugula' data-background-green>
+                                        Rukola
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Batawia' data-background-green>
+                                            Batawia
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Ketchup' data-background-red>
+                                        Ketchup
+                                    </button>
+                                    <button disabled data-category='ingredient' data-name='Mustard' data-background-yellow>
+                                        Musztarda
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-line">
+                            <div class="UHC-oil">
+                                <div class="UHC-oil-first-column">
+                                    <button disabled data-category="ingredient" data-name="Veggie" data-background-green>
+                                        Veggie
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Falafel" data-background-blue>
+                                        Falafel
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Premier" data-background-orange>
+                                        Premier
+                                    </button>
+                                </div>
+                                <div class="UHC-oil-second-column">
+                                    <button disabled data-category="ingredient" data-name="Supreme" data-background-gray>
+                                        Supreme
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Tenders" data-background-red>
+                                        Tenders
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Nuggets" data-background-orange>
+                                        Nuggetsy
+                                    </button>
+                                </div>
+                                <div class="UHC-oil-third-column">
+                                    <button disabled data-category="ingredient" data-name="Strips" data-background-black>
+                                        Strips
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Strips" data-background-black>
+                                        Strips
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Nuggets" data-background-orange>
+                                        Nuggetsy
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="UHC-grill">
+                                <div class="UHC-grill-first-column">
+                                    <button disabled data-category="ingredient" data-name="Kotk" data-background-gray>
+                                        Kotk
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="Thicker" data-background-brown>
+                                        Thicker
+                                    </button>
+                                </div>
+                                <div class="UHC-grill-second-column">
+                                    <button disabled data-category="ingredient" data-name="Plain" data-background-brown>
+                                        Plain
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="4:1" data-background-brown>
+                                        4:1
+                                    </button>
+                                </div>
+                                <div class="UHC-grill-third-column">
+                                    <button disabled data-category="ingredient" data-name="10:1" data-background-brown>
+                                        10:1
+                                    </button>
+                                    <button disabled data-category="ingredient" data-name="10:1" data-background-brown>
+                                        10:1
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-line">
+                            <div class="rolls">
+<!--                                <button disabled data-category="ingredient" data-name="Upper" data-background-green>-->
+<!--                                    Górna bułka-->
+<!--                                </button>-->
+<!--                                <button disabled data-category="ingredient" data-name="Middle" data-background-green>-->
+<!--                                    Środkowa bułka-->
+<!--                                </button>-->
+<!--                                <button disabled data-category="ingredient" data-name="Bottom" data-background-green>-->
+<!--                                    Dolna bułka-->
+<!--                                </button>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="start-game-by-first-side">Start</button>
+                        <button class="cancel-game-by-first-side">Cancel</button>
+                    </div>
+                </div>
+            </section>
+            <section class="second-side">
+                <h1>Kanapki - druga strona</h1>
+            </section>
+        </section>
+        <div class="backdrop-before-picking-roll"></div>
+    </div>
+    <script src="src/gameScreen/buildup.js"></script>
+    <script src="src/gameScreen/ingredients.js"></script>
+    <script type="module" src="src/welcomeScreen.js"></script>
+    <script type="module" src="src/gameScreen/firstSideScreen.js"></script>
+    <script type="module" src="src/gameScreen/secondSideScreen.js"></script>
+</body>
+</html>

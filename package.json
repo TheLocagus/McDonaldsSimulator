@@ -1,0 +1,23 @@
+{
+  "name": "mcdonaldskitchen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "welcomeScreen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/welcomeScreen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0"
+  }
+}
